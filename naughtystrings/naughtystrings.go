@@ -1,5 +1,3 @@
-//go:generate go get -u github.com/jteeuwen/go-bindata/go-bindata
-//go:generate go install github.com/jteeuwen/go-bindata/go-bindata
 //go:generate go-bindata -ignore \.git\S* -ignore LICENSE -ignore README\.md -ignore blns\.base64\.txt -ignore blns\.txt -ignore package\.json -o internal/resource.go -nocompress -pkg internal ..
 
 // Package naughtystrings is a collection of strings that have a high probability of causing issues when used as user input.
